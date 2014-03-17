@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>World of Visualisation</title>
+        
+        <!--<link rel="stylesheet" type="text/css" href="css/styles.css" /> | à changer quand on aura fini la page index |  -->
+        
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            
+            header {
+                position: fixed;
+                background: #4A140E; /*construction*/
+                
+                width: 100%;
+                height: 3.5em;
+            }
+            nav {
+                max-width: 1024px;
+                position: relative;
+                top: -3.5em;
+                margin: 0 auto;
+                text-align: center;
+                background: #FDD550; /*construction*/
+            }
+            .trucs {
+                max-width: 1024px;
+                position: relative;
+                top: 3.5em;
+                margin: 0 auto;
+                text-align: center;
+                background: red; /*construction*/
+            }
+            #arrow {
+                position: relative;
+                top: 3em;
+                background: #B9922C;
+                width: 20px;
+                height: 16px;
+                margin: 0 auto;
+            }
+            ul {
+                display: inline-block;
+            }
+            li {
+                background: #22233E; /*construction*/
+                
+                float: left;
+                list-style: none;
+                margin-top: 1.25em;
+                margin-right: 75px;
+            }
+            li:last-child {
+                margin-right: 0;
+            }
+            a {
+                color: #fff; /*construction*/
+                text-decoration: none;
+            }
+            content {
+                background: #414347; /*construction*/
+                
+                width: 100%;
+                height: 700px;
+            }
+        </style>
+        
+        <script src="js/jquery.js">
+            $('header').mouseOver(function(){ 
+                $('nav').toggleClass('trucs');
+            }
+        </script>
+    </head>
+    <header>
+        <div id="arrow"></div>
+        <nav>
+            <ul>
+                <li><a class="acc" href="index.html">Accueil</a></li>
+                <li><a class="mof" href="#">Making-of</a></li>
+                <li><a class="credit" href="#">Crédits</a></li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div id="content">
+            <!--Quand on aura le debut du design-->
+        </div>
+    </body>
+</html>
