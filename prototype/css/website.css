@@ -21,6 +21,7 @@
     left:0;
     top:0;
     margin:0;
+    
 }
 
 #scrollbar1 .scrollbar
@@ -28,15 +29,15 @@
     background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
     position:absolute;
     background-position:0 0;
-    right: -20px;
-    top:0;
+    right: 0px;
+    top: 5px;
     width:15px;
 }
 
 #scrollbar1 .track
 {
     background:transparent url(../images/bg-scrollbar-trackend-y.png) no-repeat 0 100%;
-    height:100%;
+    height: 100%;
     width:13px;
     position:relative;
     padding:0 1px;
