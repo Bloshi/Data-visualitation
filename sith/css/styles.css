@@ -28,7 +28,11 @@
 }
 
 #scrollbar1 .scrollbar
+<<<<<<< HEAD
 {
+=======
+{ 
+>>>>>>> FETCH_HEAD
     background:transparent url(../images/bg-scrollbar-track-y.png) no-repeat 0 0;
     position:absolute;
     background-position:0 0;
@@ -242,4 +246,13 @@ h1 {
 	.contents .sharing {
 		position: absolute;
 		bottom: 20px;
+<<<<<<< HEAD
+=======
+	}
+
+	p {
+		font-family: 'latoregular', sans-serif;
+			font-size: 16px;
+	color: #0b0c0d;
+>>>>>>> FETCH_HEAD
 	}
